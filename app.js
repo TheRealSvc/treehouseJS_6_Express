@@ -1,17 +1,23 @@
 const express = require('express');
 const data = require('./data.json');
-console.log(data.projects);
+
 const app = express();
+
+//const projectRoutes = require('./routes/project');
+//app.use(projectRoutes);
+
 //app.use(bodyParser.urlencoded({ extended: false}));
 //app.use(cookieParser());
 app.use('/static', express.static('public'));
 
 app.set('view engine', 'pug');
 
-app.use('/', (req,res) => {
-    res.locals.data = data.projects ;
-    res.render('index',{});
+
+app.use('/index', (req,res) => {
+    res.locals.data = data.json;
+    res.render('index', {data:data});
 });
+
 
 app.use('/about', (req,res) => {
     res.render('about',{});
