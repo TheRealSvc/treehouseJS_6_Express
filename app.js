@@ -2,6 +2,7 @@ const express = require('express');
 const data = require('./data.json');
 
 const app = express();
+console.log(data);
 
 //const projectRoutes = require('./routes/project');
 //app.use(projectRoutes);
@@ -13,9 +14,9 @@ app.use('/static', express.static('public'));
 app.set('view engine', 'pug');
 
 
+
 app.use('/index', (req,res) => {
-    res.locals.data = data.json;
-    res.render('index', {data:data});
+    res.render('index', {"data": data});
 });
 
 
