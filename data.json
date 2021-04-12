@@ -1,49 +1,49 @@
 {
     "projects": [
         {
-            "id":0,
-            "project_name":"A Random Quote Generator",
+            "id": 0,
+            "project_name": "A Random Quote Generator",
             "description": "Interacting with the DOM",
             "technologies": ["Javascript","DOM","eventListeners"],
-            "live_link":"https://therealsvc.github.io/treehouseJS_project_1/",
+            "live_link": "https://therealsvc.github.io/treehouseJS_project_1/",
             "github_link": "https://github.com/TheRealSvc/treehouseJS_project_1.git",
-            "image_urls":["../images/randomQuotes1_square.png" ]
+            "image_urls": ["/static/images/randomQuotes1_square.png","/static/images/randomQuotes2_.png","/static/images/randomQuotes3_.png"]
         },
         {
-            "id":1,
-            "project_name":"Data Pagination and Filtering",
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
             "description": "Creating content at runtime",
             "technologies": ["Javascript","DOM","eventListeners","creating Elements"],
-            "live_link":"https://therealsvc.github.io/treehouseJS_project_2/",
+            "live_link": "https://therealsvc.github.io/treehouseJS_project_2/",
             "github_link": "https://github.com/TheRealSvc/treehouseJS_project_2.git",
-            "image_urls":["../images/Pagination1_square.png" ]
+            "image_urls": ["/static/images/Pagination1_square.png", "/static/images/Pagination2_rect.png","/static/images/Pagination3_rect.png"]
         },
         {
-            "id":2,
-            "project_name":"Interactive Form",
-            "description": "validating forms and make it accessible",
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Validating forms and make it accessible",
             "technologies": ["Javascript","DOM","eventListeners"],
-            "live_link":"https://therealsvc.github.io/treehouseJS_project_3/",
+            "live_link": "https://therealsvc.github.io/treehouseJS_project_3/",
             "github_link": "https://github.com/TheRealSvc/treehouseJS_project_3.git",
-            "image_urls":["../images/Forms_1_square.png" ]
+            "image_urls": ["/static/images/Forms_1_square.png", "/static/images/Forms_2_rect.jpg","/static/images/Forms_2_rect2.jpg"]
         },
         {
-            "id":3,
-            "project_name":"OOP Game Show App",
+            "id": 3,
+            "project_name": "OOP Game Show App",
             "description": "Phrase Hunter Game",
-            "technologies": ["Object oriented programming with javascript"],
-            "live_link":"https://therealsvc.github.io/treehouseJS_project_4_gameshow/",
+            "technologies": ["Object oriented programming with Javascript"],
+            "live_link": "https://therealsvc.github.io/treehouseJS_project_4_gameshow/",
             "github_link": "https://github.com/TheRealSvc/treehouseJS_project_4_gameshow.git",
-            "image_urls":["../images/phraseHunter_1.PNG"]
+            "image_urls": ["/static/images/phraseHunter_1.PNG","/static/images/phraseHunter_2.jpg","/static/images/phraseHunter_3.PNG" ]
         },
         {
-            "id":4,
-            "project_name":"Public API Requests",
-            "description": "calling publing APIs and use teh Ajax paradigm",
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "Calling publing APIs and Ajax",
             "technologies": ["Ajax","XHRHttpRequest","fetch"],
-            "live_link":"https://therealsvc.github.io/treehouseJS_5_publicAPI/",
+            "live_link": "https://therealsvc.github.io/treehouseJS_5_publicAPI/",
             "github_link": "https://github.com/TheRealSvc/treehouseJS_5_publicAPI.git",
-            "image_urls":["../images/employee_directory_1.png" ]
+            "image_urls": ["/static/images/employee_directory_1.png","/static/images/employee_directory_2.png", "/static/images/employee_directory_3_dynamicSearch.png"]
         }
     ]
 }
