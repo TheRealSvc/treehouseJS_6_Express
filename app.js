@@ -14,25 +14,25 @@ app.use(about);
 const projects = require('./routes/projects');
 app.use(projects);
 
-// Error handling - 404
+// Error middleware for handling - 404
 app.use((req, res, next) => {
-    const err = new Error('Not Found');
+    const err = new Error("Ups, this page appears to be non-existing !");
     err.status = 404;
-    err.message = "Ups, this page appears to be non-existing !"
     next(err);
 });
 
-// others than 404
+// error rendering for all cases 
 app.use((err, req, res, next) => {
-    if (err.status !== 404) {
-        err = new Error('Server Error'); 
-        res.locals.error = err;
+    console.log(err.status);
+    res.locals.error = err;
+    if (err.status === 404) {
+        err.message = 'page not found'
         res.status(err.status);
+        return res.render('page-not-found', err);
     } else {
-        res.locals.error = err;
-        res.status(err.status);
+        res.status(err.status)
+        return res.render('error', err);
     }
-    res.render('error', err);
 });
   
 app.listen(3000, () => {

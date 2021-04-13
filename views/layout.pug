@@ -8,30 +8,27 @@ html(lang="en" dir="ltr")
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
+    link(rel='stylesheet', href='/static/css/mysstyles.css')
+    
 
   body
     #my-info.sidebar
       .sidebar-info-box
         br
-        .thumbnail-box
-          img.thumbnail(src='/static/images/photograph_rescaled.jpg' alt='my photograph')
+        img.thumbnail(src='/static/images/photograph_rescaled.jpg' alt='my photograph')
         .dev-intro-box
 
-          //- Replace with your name
-          h5 Stephan von Cölln
+          h5 Stephan v Cölln
 
-          //- Replace with description of who you are, what you do, and why you are so awesome
           p Data-Scientist, Tech-Enthusiast and brand new Javascript-Developer
 
-          //- Add path from your '/about' route handler to the href below
           a(href='/about') Learn More &rarr;
 
     .wrapper
       .header
         .header-info-box
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
-
-          //- Replace with your name — this is for the mobile layout
+          
           span Stephan von Cölln
 
       block content

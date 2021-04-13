@@ -6,5 +6,4 @@ router.get('/', (req,res) => {
     res.render('index', {"data": data.projects});
 });
 
-
 module.exports = router;
