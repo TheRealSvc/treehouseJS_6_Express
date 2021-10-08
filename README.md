@@ -1,12 +1,10 @@
-# treehouseJS_project_6
-Static Node.js and Express Site
+A single page to showcase project 1-5 of the Treehouse Javascript TechDegree.
+Clone repo and move to the root folder, then...
+
+Install:  npm install
+Start: npm start 
 
 
-# Browser Tests 
-Basic functionality and error treatment were tested in Chrome, Firefox and MS-Edge 
+![Main page](https://github.com/TheRealSvc/treehouseJS_6_Express/public/images/showcase_1.png)
 
-
-## Exceeds
-A *mystyles.css* file was created and loaded after the *styles.css* file, so that these properties are overwritten. 
-Changes were made in several places, for color, background-color and font (both size, font-family and color) 
-
+![Project Page](https://github.com/TheRealSvc/treehouseJS_6_Express/public/images/showcase_2.png)
