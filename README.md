@@ -5,6 +5,7 @@ Install:  npm install
 Start: npm start 
 
 
-![Main page](https://github.com/TheRealSvc/treehouseJS_6_Express/public/images/showcase_1.png)
+![Main page](https://github.com/TheRealSvc/treehouseJS_6_Express/blob/master/public/images/showcase_1.png)
 
-![Project Page](https://github.com/TheRealSvc/treehouseJS_6_Express/public/images/showcase_2.png)
+![Project Page](https://github.com/TheRealSvc/treehouseJS_6_Express/blob/master/public/images/showcase_2.png)
+
